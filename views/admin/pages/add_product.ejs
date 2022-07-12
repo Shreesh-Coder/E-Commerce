@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcom Admin</h1>
+    <form method="post" enctype="multipart/form-data" action="/admin/product">
+        <label for="product-name">Product Name</label>
+        <input id="product-name" name="product_name">
+
+        <label for="product-des">Product Description</label>
+        <input id="product-des" name="product_des">
+
+        <label for="product-price">Product Price</label>
+        <input id="product-price" name="product_price">
+
+        <label for="product-quantity">Product Quantity</label>
+        <input id="product-quantity" name="product_quantity">
+
+        <label for="product-image">Product Image</label>
+        <input id="product-image" name="product_image" type="file">
+
+        <input type="submit" value="Add Product">
+    </form>
+    <div id="products">
+       
+    </div>
+
+    <script src="/add_product.js"></script>
+</body>
+</html>

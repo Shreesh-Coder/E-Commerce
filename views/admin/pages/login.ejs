@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="/admin/auth/login" method="post">
+            <input type="text" placeholder="Enter username" name="username">
+            <input type="password" placeholder="Enter password" name="password">
+            <input type="submit" value="login">
+        </form>
+        <a href="/forget-password">forget password</a>
+        <% if(error){ %> 
+            <h1><%= error %> </h1>
+        <% } %> 
+    </div>
+</body>
+</html>

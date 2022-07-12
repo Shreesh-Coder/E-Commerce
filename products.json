@@ -1,0 +1,98 @@
+[
+    {
+      "name": "tv",
+      "price": "100",
+      "discription": "55inch tv",
+      "_id" : "1"
+    },
+    {
+      "name": "iphone",
+      "price": "1000",
+      "discription": "amazing phone",      
+      "_id" : "2"
+    },
+    {
+      "name": "car",
+      "price": "50000",
+      "discription": "worst car",
+      "_id" : "3"
+    },
+    {
+      "name": "xbox",
+      "price": "500",
+      "discription": "xbox with 8gb ram",
+      "_id" : "4"
+    },
+    {
+      "name": "ps5",
+      "price": "499",
+      "discription": "ps with amd processor",
+      "_id" : "5"
+    },
+    {
+      "name": "andorid",
+      "price": "700",
+      "discription": "do anything with it",
+      "_id" : "6"
+    },
+    {
+      "name": "kaju",
+      "price": "100",
+      "discription": "grad 5",
+      "_id" : "7"
+    },
+    {
+      "name": "ipad",
+      "price": "999",
+      "discription": "apple ipad",
+      "_id" : "8"
+    },
+    {
+      "name": "macbook",
+      "price": "4000",
+      "discription": "mackbook with m1 processor",
+      "_id" : "9"
+    },
+    {
+      "name": "razer black",
+      "price": "500",
+      "discription": "windows gaming laptop",
+      "_id" : "10"
+    },
+    {
+      "name": "bean bags",
+      "price": "2000",
+      "discription": "xxxl size",
+      "_id" : "11"
+    },
+    {
+      "name": "temp sensor",
+      "price": "10",
+      "discription": "range -10 to 100 K",
+      "_id" : "12"
+    },
+    {
+      "name": "ardino",
+      "price": "40",
+      "discription": "ardiuno uno min",
+      "_id" : "13"
+    },
+    {
+      "name": "nvidia rtx 2070 super",
+      "price": "799",
+      "discription": "8Gb graphics card",
+      "_id" : "14"
+    },
+    {
+      "name": "gaming mouse",
+      "price": "50",
+      "discription": "dpi 2000 - 16000",
+      "_id" : "15"
+    },
+    {
+      "name": "camera",
+      "price": "700",
+      "discription": "100Mpx camera",
+      "_id" : "16"
+    }
+  ]

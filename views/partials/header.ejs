@@ -1,0 +1,10 @@
+<div>
+    <% if(user) {%> 
+        <h3><%= user.username %> </h3>
+        <img src="<%= user.profile_pic %>" width="300" height="200"/>    
+        <a href="/logout"><button id="logout">Logout</button>   </a>
+        <a href="/reset-password/<%= user.username%>"><button>Change Password</button></a>
+    <% } else { %> 
+        <a href="/auth">login</a>
+    <% } %> 
+</div>

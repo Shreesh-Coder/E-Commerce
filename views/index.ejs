@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include("./partials/header.ejs", {user: user}) %> 
+    <h1>HOME</h1>
+    <% if(error) { %> 
+        <h3><%= error %> </h3>
+    <% } %> 
+    <a href="/view-cart"><button id="go-to-cart">Go To Cart...!</button></a>
+    <div id="products">
+        <% products.forEach((product) =>{ %> 
+            <div id="<%= product._id %>">
+                <h4><%= product.name %></h4>
+                <h4><%= product.price %></h4>
+                <button class="view-dis">View Discription</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>    
+        <% }) %>     
+    </div>
+
+    <button id="load-more">Load More</button>
+    <script src="/index.js"></script>
+</body>
+</html>

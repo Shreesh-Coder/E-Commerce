@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include("./partials/header.ejs", {user: user}) %> 
+    <h1>CART..!</h1>
+    <a href="/"><btton>Back to Product Page</btton></a>
+    <% if(message) {%> 
+        <h2><%= message %></h2>
+    <% } %> 
+    <div id="products">
+        <% products.forEach((product) =>{ %> 
+            <div id="<%= product.product_id %>">
+                
+                <h4><%= product.product_name %></h4>
+                <h4><%= product.product_price %></h4>
+                
+                <button class="quantity-inc">+</button>
+                <button class="quantity-dec">-</button>
+                <h4><%= product.product_quantity %></h4>
+                <button class="view-dis">View Discription</button>
+                <button class="delete-product">delete</button>
+            </div>    
+        <% }) %>     
+    </div>
+    <script src="/view-cart.js"></script>
+</body>
+</html>
